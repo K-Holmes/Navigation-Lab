@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+
+  margin: 0;
+  padding: 0;
+}
+
+.Sidebar {
+  height: 100%;
+  width: 250px;
+  background-color: aquamarine;
+}
+
+.SidebarList {
+  list-style: none;
+  margin: 0;
+  padding-left: 25px;
+  padding-top: 25px;
+  text-align: left;
+  line-height: 25px;
+}
+
+.SidebarList{
+  list-style: none;
+  margin: 0;
+  padding-left: 25px;
+  /* padding-top: 25px; */
+  text-align: left;
+}
+
+.spaceList {
+  padding-top: 25px;
+}
+
+.row {
+  flex-direction: row;
+}
