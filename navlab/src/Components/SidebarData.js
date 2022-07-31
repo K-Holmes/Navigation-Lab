@@ -7,49 +7,51 @@ import AccountBoxIcon from '@mui/icons-material/AccountBox';
 import GroupIcon from '@mui/icons-material/Group';
 import ArticleIcon from '@mui/icons-material/Article';
 import ModeNightIcon from '@mui/icons-material/ModeNight';
+import { blueGrey } from '@mui/material/colors';
 // import Switch from '@mui/material/Switch';
 
+// const label = { inputProps: { 'aria-label': 'Switch demo' } };
 
 
 export const SidebarData = [
     {
         title: "Home",
-        icon: <HomeIcon />,
+        icon: <HomeIcon sx={{ color: blueGrey[500] }} />,
         link: "/home"
     },
     {
         title: "Friends",
-        icon: <PersonIcon />,
+        icon: <PersonIcon sx={{ color: blueGrey[500] }}/>,
         link: "/friends"
     },
     {
         title: "Settings",
-        icon: <SettingsIcon />,
+        icon: <SettingsIcon sx={{ color: blueGrey[500] }}/>,
         link: "/settings"
     },
     {
         title: "Marketplace",
-        icon: <StorefrontIcon />,
+        icon: <StorefrontIcon sx={{ color: blueGrey[500] }}/>,
         link: "/marketplace"
     },
     {
         title: "Profile",
-        icon: <AccountBoxIcon />,
+        icon: <AccountBoxIcon sx={{ color: blueGrey[500] }}/>,
         link: "/profile"
     },
     {
         title: "Groups",
-        icon: <GroupIcon />,
+        icon: <GroupIcon sx={{ color: blueGrey[500] }}/>,
         link: "/groups"
     },
     {
         title: "Pages",
-        icon: <ArticleIcon />,
+        icon: <ArticleIcon sx={{ color: blueGrey[500] }}/>,
         link: "/pages"
     },
     {
-        title: "Home",
-        icon: <ModeNightIcon />,
+        title: "",
+        icon: <ModeNightIcon sx={{ color: blueGrey[500] }}/>,
         link: "/home"
     },
 ]
